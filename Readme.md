@@ -6,8 +6,8 @@ Ce projet Scala a été développé pour extraire des informations à partir des
 
 Avant d'exécuter le scraper, assurez-vous d'avoir installé les éléments suivants :
 
-- Scala (version x.x.x)
-- SBT (Scala Build Tool) (version 3.3.1)
+- Scala (version 3.3.1)
+- SBT (Scala Build Tool) (version 1.9.6)
 - Autres dépendances (le cas échéant)
 
 ## Compilez le projet à l'aide de SBT
