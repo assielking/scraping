@@ -1,0 +1,113 @@
+2023.09.20 09:19:56 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\Junior\Desktop\scraping_gbodjo' for client Visual Studio Code 1.82.2.
+sept. 20, 2023 9:19:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFOS: Flyway Community Edition 9.21.2 by Redgate
+sept. 20, 2023 9:19:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFOS: See release notes here: https://rd.gt/416ObMi
+sept. 20, 2023 9:19:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFOS: 
+sept. 20, 2023 9:19:57 AM org.flywaydb.core.FlywayExecutor execute
+INFOS: Database: jdbc:h2:file:C:\Users\Junior\Desktop\scraping_gbodjo\.metals\metals (H2 2.1)
+sept. 20, 2023 9:19:57 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFOS: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+sept. 20, 2023 9:19:57 AM org.flywaydb.core.internal.command.DbValidate validate
+INFOS: Successfully validated 4 migrations (execution time 00:00.068s)
+sept. 20, 2023 9:19:57 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFOS: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+sept. 20, 2023 9:19:57 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFOS: Current version of schema "PUBLIC": << Empty Schema >>
+sept. 20, 2023 9:19:57 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFOS: Migrating schema "PUBLIC" to version "1 - Create tables"
+sept. 20, 2023 9:19:57 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFOS: Migrating schema "PUBLIC" to version "2 - Server discovery"
+sept. 20, 2023 9:19:58 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFOS: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+sept. 20, 2023 9:19:58 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFOS: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+sept. 20, 2023 9:19:58 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFOS: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.099s)
+2023.09.20 09:19:58 INFO  time: initialize in 2.29s
+2023.09.20 09:19:59 WARN  Build server is not auto-connectable.
+2023.09.20 09:20:29 INFO  running 'C:\Program Files\Java\jdk1.8.0_361\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.4 -jar C:\Users\Junior\AppData\Local\Temp\metals2961106460937484265\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.09.20 09:20:37 INFO  [info] Updated file C:\Users\Junior\Desktop\scraping_gbodjo\project\build.properties: set sbt.version to 1.9.4
+2023.09.20 09:20:37 INFO  [info] welcome to sbt 1.9.4 (Oracle Corporation Java 1.8.0_361)
+2023.09.20 09:20:47 INFO  [info] loading settings for project scraping_gbodjo-build-build from metals.sbt ...
+2023.09.20 09:20:50 INFO  [info] loading project definition from C:\Users\Junior\Desktop\scraping_gbodjo\project\project
+2023.09.20 09:21:05 INFO  [info] loading settings for project scraping_gbodjo-build from metals.sbt ...
+2023.09.20 09:21:08 INFO  [info] loading project definition from C:\Users\Junior\Desktop\scraping_gbodjo\project
+2023.09.20 09:21:26 INFO  [success] Generated .bloop\scraping_gbodjo-build.json
+2023.09.20 09:21:26 INFO  [success] Total time: 19 s, completed 20 sept. 2023 09:21:27
+2023.09.20 09:21:38 INFO  [info] loading settings for project root from build.sbt ...
+2023.09.20 09:21:38 INFO  [info] set current project to ls (in build file:/C:/Users/Junior/Desktop/scraping_gbodjo/)
+2023.09.20 09:21:52 INFO  [success] Generated .bloop\root-test.json
+2023.09.20 09:21:52 INFO  [success] Generated .bloop\root.json
+2023.09.20 09:21:52 INFO  [success] Total time: 13 s, completed 20 sept. 2023 09:21:53
+2023.09.20 09:21:54 INFO  time: ran 'sbt bloopInstall' in 1m24s
+2023.09.20 09:21:54 INFO  Attempting to connect to the build server...
+2023.09.20 09:21:54 INFO  Bloop uses C:\Program Files\Java\jdk1.8.0_361 defined at C:\Users\Junior\.bloop\bloop.json
+2023.09.20 09:21:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Junior\Desktop\scraping_gbodjo\.metals\bsp.trace.json or C:\Users\Junior\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.20 09:21:54 INFO  Attempting to connect to the build server...
+2023.09.20 09:21:54 INFO  Bloop uses C:\Program Files\Java\jdk1.8.0_361 defined at C:\Users\Junior\.bloop\bloop.json
+2023.09.20 09:21:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Junior\Desktop\scraping_gbodjo\project\.metals\bsp.trace.json or C:\Users\Junior\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.20 09:21:54 INFO  time: Connected to build server in 0.86s
+2023.09.20 09:21:54 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.20 09:21:55 INFO  time: Imported build in 0.3s
+2023.09.20 09:22:21 INFO  time: indexed workspace in 26s
+sept. 20, 2023 9:22:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3
+sept. 20, 2023 9:22:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4
+2023.09.20 09:22:38 INFO  compiling root (1 scala source)
+2023.09.20 09:22:42 INFO  time: compiled root in 4.19s
+sept. 20, 2023 9:22:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 7
+2023.09.20 09:23:17 INFO  time: code lens generation in 39s
+2023.09.20 09:23:27 INFO  time: code lens generation in 49s
+2023.09.20 09:25:41 INFO  file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala:25:5: stale bloop error: Not found: restaurants
+    restaurants.forEach { restaurant =>
+    ^^^^^^^^^^^
+2023.09.20 09:25:41 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:27:22 INFO  file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala:25:5: stale bloop error: Not found: restaurants
+    restaurants.forEach { restaurant =>
+    ^^^^^^^^^^^
+2023.09.20 09:27:22 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:27:24 INFO  skipping build import with status 'Installed'
+2023.09.20 09:27:24 INFO  compiling root (1 scala source)
+2023.09.20 09:27:29 INFO  time: compiled root in 4.11s
+2023.09.20 09:32:19 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:32:21 INFO  skipping build import with status 'Installed'
+2023.09.20 09:32:22 INFO  compiling root (1 scala source)
+2023.09.20 09:32:25 INFO  time: compiled root in 3.31s
+2023.09.20 09:36:07 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:36:11 INFO  skipping build import with status 'Installed'
+2023.09.20 09:36:11 INFO  compiling root (1 scala source)
+2023.09.20 09:36:14 INFO  time: compiled root in 2.7s
+2023.09.20 09:40:22 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:40:25 INFO  skipping build import with status 'Installed'
+2023.09.20 09:40:26 INFO  compiling root (1 scala source)
+2023.09.20 09:40:29 INFO  time: compiled root in 2.92s
+2023.09.20 09:43:56 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:43:59 INFO  skipping build import with status 'Installed'
+2023.09.20 09:43:59 INFO  compiling root (1 scala source)
+2023.09.20 09:44:02 INFO  time: compiled root in 2.99s
+2023.09.20 09:47:57 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:47:59 INFO  skipping build import with status 'Installed'
+2023.09.20 09:47:59 INFO  compiling root (1 scala source)
+2023.09.20 09:48:02 INFO  time: compiled root in 2.73s
+2023.09.20 09:50:29 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:50:41 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:51:01 WARN  Could not find semantic tokens for: file:///C:/Users/Junior/Desktop/scraping_gbodjo/Main.scala
+2023.09.20 09:51:07 INFO  skipping build import with status 'Installed'
+2023.09.20 09:51:07 INFO  compiling root (1 scala source)
+2023.09.20 09:51:09 INFO  time: compiled root in 2.66s
+2023.09.20 10:00:41 INFO  Shutting down server
+2023.09.20 10:00:41 INFO  shutting down Metals
+2023.09.20 10:00:41 INFO  Shut down connection with build server.
+2023.09.20 10:00:41 INFO  Shut down connection with build server.
+2023.09.20 10:00:42 INFO  Exiting server
+2023.09.20 10:01:37 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\Junior\Desktop\scraping_gbodjo' for client Visual Studio Code 1.82.2.
+sept. 20, 2023 10:01:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFOS: Flyway Community Edition 9.21.2 by Redgate
+sept. 20, 2023 10:01:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFOS: See release notes here: https://rd.gt/416ObMi
+sept. 20, 2023 10:01:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFOS: 
