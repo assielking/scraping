@@ -1,7 +1,6 @@
 # Scraper d'informations sur les entreprises de restauration en Scala
 
-Ce projet Scala a été développé pour extraire des informations à partir des 10 premières entreprises de restauration de Go Africa Online. Le scraper collecte des données telles que les coordonnées, les services, les informations et les horaires des entreprises à partir d'une source en ligne (précisez la source ici, par exemple, un site web ou une API).
-
+Ce projet Scala a été développé pour extraire des informations à partir des 10 premières entreprises de restauration de Go Africa Online. Le scraper collecte des données telles que les coordonnées, les services, les informations et les horaires des entreprises à partir d'une source en ligne .
 ## Configuration requise
 
 Avant d'exécuter le scraper, assurez-vous d'avoir installé les éléments suivants :
